@@ -1,0 +1,33 @@
+***** Create New Enverment ******
+
+Step 1:- Check list of enviroment
+
+conda info --envs
+
+step 2:- Create New Enviroment 
+
+conda create -n myenv python = 3.9
+
+step 3:- check python version
+
+python --version
+
+step 4:- Remove Conda Enviroment
+
+conda env remove -n ENV_NAME
+
+step 5:- enviroment activate and deactivate 
+
+conda activate myenv
+
+conda deactivate  # current enviroment
+
+step 6:- Now install the kernal in new enviroment
+
+pip install ipykernel
+
+step 7:- after that in the kernal we need to install python 
+
+ipython kernel install — user — name=myenv
+
+step 8:- 
